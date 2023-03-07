@@ -9,12 +9,23 @@
 <body>
 	<h1>Kő-papír-olló</h1>
 	
+	<div class="content">
+		<div class="player">
+			<h3>Player</h3>
+			<img id="player-image" src="paper.png">
+		</div>
+		<div class="computer">
+			<h3>Computer</h3>
+			<img id="computer-image" src="paper.png">
+		</div>
+	</div>
+
 	<div id="choices">
 		<button class="choice" id="rock"><img src="rock.png" alt="Rock" id="rock"></button> 
 		<button class="choice" id="paper"><img src="paper.png" alt="Paper" id="paper"></button>
 		<button class="choice" id="scissors"><img src="scissors.png" alt="Scissors" id="scissors"></button>
 	</div>
-	
+
 	<div id="result">
 		<p>Te: <span id="userChoice"></span></p>
 		<p>Ellenfél: <span id="computerChoice"></span></p>
@@ -23,8 +34,14 @@
 		<p>WIN: <a id="WIN">0</a></p>
 		<p>LOSE: <a id="LOSE">0</a></p>
 		<p>TIE: <a id="TIE">0</a></p>
-
 	</div>
+
+	<div id="bigpics">
+		<p><span id="userChoice"></span></p>
+		<p><span id="computerChoice"></span></p>
+	</div>
+	
+
 	<div>
 		<div class="wave"></div>
 		<div class="wave"></div>

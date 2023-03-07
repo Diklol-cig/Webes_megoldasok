@@ -20,8 +20,27 @@ choices.forEach(choice => choice.addEventListener('click', e => {
 	computerChoiceSpan.textContent = computerChoice;
 	outcome = determineOutcome(userChoice, computerChoice);
 	outcomeSpan.textContent = outcome;
-}));
+	
+	if(userChoice==="rock"){
+        document.getElementById("player-image").src = "rock.png";
+    }
+    else if(userChoice==="paper"){
+        document.getElementById("player-image").src = "paper.png";
+    }
+    else if(userChoice==="scissors"){
+        document.getElementById("player-image").src = "scissors.png";
+    }
 
+    if(computerChoice==="rock"){
+        document.getElementById("computer-image").src = "rock.png";
+    }
+    else if(computerChoice==="paper"){
+        document.getElementById("computer-image").src = "paper.png";
+    }
+    else if(computerChoice==="scissors"){
+        document.getElementById("computer-image").src = "scissors.png";
+    }
+}));
 
 function determineOutcome(userChoice, computerChoice) {
 	if (userChoice === computerChoice) {
@@ -43,7 +62,6 @@ function determineOutcome(userChoice, computerChoice) {
 		return "Vesztettél!";
 	}
 }
-
 function resetGame() {
 	userChoiceSpan.textContent = "";
     computerChoiceSpan.textContent = "";

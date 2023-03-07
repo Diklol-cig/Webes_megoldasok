@@ -93,7 +93,10 @@ body {
   #result {
     color: aliceblue;
     margin-top: 50px;
-    text-align: center;
+    text-align: left;
+    position: absolute;
+    left: 32px;
+    top: 32px;
   }
   
   #result p {
@@ -102,6 +105,21 @@ body {
   
   #result span {
     font-weight: bold;
-    color: #333;
+    color: #a13636;
   }
-  
+
+  .content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    gap: 32px;
+  }
+
+  .content img {
+    width: 200px;
+  }
+
+  img{
+    width: 140px;
+  }
