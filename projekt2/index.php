@@ -19,12 +19,11 @@ if(isset($_GET["redirect"]) && isset($_GET["delay"])){
     <link rel="stylesheet" href="assets/css/Login-Red.css">
 </head>
 
-<body>
+<body style="background-color:red">
     <section>
         <div class="lgp-hd">
             <h2><strong>Projekt2</strong></h2>
-            <h5><strong>Varga Levente - NK: EW33EZ</strong></h5>
-            <h6><sup>A sikeres belépésnél a lakat színe változik!</sup></h6>
+            <h5><strong>Molnár Dániel Tamás - DDFCGP</strong></h5>
         </div>
         <div class="container login-cont">
             <div class="row">

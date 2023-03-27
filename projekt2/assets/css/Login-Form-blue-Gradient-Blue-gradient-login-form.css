@@ -84,8 +84,7 @@ a:hover, a:focus {
   margin-bottom: 10px;
 }
 
-body {
-  background: rgb(0,117,185);
-  background: radial-gradient(circle, rgba(0,117,185,1) 0%, rgba(0,44,93,1) 100%);
+html, body {
+  background: rgb(136, 115, 185);
+  background: radial-gradient(circle, rgb(185, 0, 31) 0%, rgb(222, 216, 185) 100%);
 }
-

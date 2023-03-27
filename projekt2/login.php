@@ -60,6 +60,7 @@ function decodePasswords($filename, $key) {
         $decoded .= $decodedLine . "\n";
     }
 
+    print($decoded);
     return $decoded;
 }
 
