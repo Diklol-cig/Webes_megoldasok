@@ -10,9 +10,14 @@ Használati utasítás
         gcc (C fordító)
         make (build eszköz)
 
-    A program forráskódját letölthetjük a Github tárolóból, majd a forráskód könyvtárában a következő parancsokkal fordíthatjuk és futtathatjuk a programot:
+A program forráskódját letölthetjük a Github tárolóból, majd a forráskód könyvtárában 
+a következő parancsokkal fordíthatjuk és futtathatjuk a programot:
 
-    css
+    make
+    ./chart [-send|-receive] [-file|-socket]
 
-make
-./bmp_graphic [send|receive] [file|socket]
+Opcionális kapcsolók:
+
+    --help
+    --version
+    
